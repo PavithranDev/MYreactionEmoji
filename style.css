@@ -1,0 +1,126 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.emoji-wrapper {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Emoji styling remains same */
+.emoji-face {
+    width: 250px;
+    height: 250px;
+    background-color: darkorange;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    top: 70px;
+}
+
+.eye-left {
+    left: 60px;
+}
+
+.eye-right {
+    right: 60px;
+}
+
+.mouth {
+    position: absolute;
+    height: 32px;
+    width: 80px;
+    background-color: black;
+    border-radius: 0 0 50px 50px;
+    top: 150px;
+    left: 85px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.tongue {
+    position: absolute;
+    height: 22px;
+    width: 60px;
+    background-color: palevioletred;
+    border-radius: 0 0 50px 50px;
+    top: 160px;
+    left: 95px;
+    z-index: 2;
+}
+
+.mouthh {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: 150px;
+    left: 100px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.mouthhh {
+    position: absolute;
+    height: 10px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    top: 159px;
+    left: 95px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.mouthhhh {
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    border: 5px solid black;
+    border-bottom: none;
+    border-radius: 60px 60px 0 0;
+    top: 140px;
+    left: 65px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Text Labels below each emoji */
+.happy, .ohh, .hmm, .sad {
+    margin-top: 270px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
